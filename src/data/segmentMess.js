@@ -1,85 +1,66 @@
-const segment = {
-  totalCount: 3015,
-  segments: [
+const customerData = {
+  totalCount: 3,
+  customers: [
     {
       id: 1,
-      name: 'Child segment',
-      description: '(1, 2, 4)',
-      parentFg: false,
-      segmentFactors: [
+      firstName: 'Jessi',
+      lastName: 'Cooper',
+      email: 'JCooper@gmail.com',
+      orders: [
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 1,
+          name: 'milk',
+          value: 3.99,
         },
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 183,
+          name: 'bread',
+          value: 1.99,
         },
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 852,
+          name: 'eggs',
+          value: 5.99,
         },
       ],
     },
     {
-      id: 1,
-      name: 'Child segment',
-      description: '(1, 2, 4)',
-      parentFg: false,
-      segmentFactors: [
+      id: 2,
+      firstName: 'Floyd',
+      lastName: 'Bauer',
+      email: 'FloydRocks@msn.com',
+      orders: [
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 53,
+          name: 'chicken',
+          value: 9.99,
         },
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
-        },
-        {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 78,
+          name: 'tortillas',
+          value: 1.99,
         },
       ],
     },
     {
-      id: 1,
-      name: 'Child segment',
-      description: '(1, 2, 4)',
-      parentFg: false,
-      segmentFactors: [
+      id: 3,
+      firstName: 'Ernest',
+      lastName: 'Le',
+      email: 'Ernest678@aol.com',
+      orders: [
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 950,
+          name: 'chocolate',
+          value: 0.99,
         },
         {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
-        },
-        {
-          segmentFactorValueId: 1,
-          name: '',
-          value: '',
-          description: '',
+          id: 1,
+          name: 'milk',
+          value: 3.99,
         },
       ],
     },
   ],
 };
 
-export default segment;
+export default customerData;
